@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+  body {
+    background-color: #06080F;
+    color: #E2E8F0;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0D18;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E2644;
+  border-radius: 9999px;
+  border: 2px solid #0A0D18;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3B82F6;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: rgba(13, 17, 30, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glass-panel-hover:hover {
+  background: rgba(18, 24, 42, 0.85);
+  border-color: rgba(99, 102, 241, 0.3);
+  box-shadow: 0 10px 30px -10px rgba(99, 102, 241, 0.2);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Gradient Text Shimmer */
+.gradient-text {
+  background: linear-gradient(135deg, #FFFFFF 0%, #E0E7FF 40%, #818CF8 70%, #00F0FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-cyan {
+  background: linear-gradient(135deg, #00F0FF 0%, #3B82F6 50%, #8B5CF6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-gold {
+  background: linear-gradient(135deg, #FCD34D 0%, #F59E0B 50%, #EF4444 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle Grid Background Pattern */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+.bg-dots-pattern {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Glow effects */
+.glow-cyan {
+  box-shadow: 0 0 35px -5px rgba(0, 240, 255, 0.3);
+}
+
+.glow-indigo {
+  box-shadow: 0 0 35px -5px rgba(99, 102, 241, 0.3);
+}
+
+.glow-purple {
+  box-shadow: 0 0 35px -5px rgba(168, 85, 247, 0.3);
+}
+
