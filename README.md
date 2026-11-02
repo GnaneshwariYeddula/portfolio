@@ -1,8 +1,20 @@
 # Ganeshwari Yeddula — Portfolio Website
 
-A modern, high-performance portfolio website built for **Ganeshwari Yeddula** (*Yeddula Gnaneshwari*) — Computer Science Engineer (CGPA 8.57), MERN Stack Developer, and AI-Driven Web Designer.
+<div align="center">
+  <img src="./public/profile.jpeg" alt="Ganeshwari Yeddula" width="150" height="150" style="border-radius: 50%; object-fit: cover; border: 3px solid #6366F1; box-shadow: 0 8px 24px rgba(0,0,0,0.35);" />
+  <br />
+  <h3>Ganeshwari Yeddula</h3>
+  <p><b>Full-Stack MERN Developer • AI Web Designer • Quantum Science Enthusiast</b></p>
+  <p>
+    <a href="https://www.linkedin.com/in/gnaneshwariyeddula/">LinkedIn</a> •
+    <a href="https://github.com/GnaneshwariYeddula">GitHub</a> •
+    <a href="mailto:gnaneshwariyeddula0806@gmail.com">Email</a>
+  </p>
+</div>
 
-![Portfolio Preview](/public/profile.jpeg)
+---
+
+A modern, high-performance portfolio website built for **Ganeshwari Yeddula** (*Yeddula Gnaneshwari*) — Computer Science Engineer (CGPA 8.57), MERN Stack Developer, and AI-Driven Web Designer.
 
 ---
 
@@ -25,7 +37,6 @@ A modern, high-performance portfolio website built for **Ganeshwari Yeddula** (*
   - **CBIT Library Hub** (TypeScript & React)
   - **Real-Time Collaborative Chat & Editor** (WebSockets + MERN)
   - **Skyora Dynamic Weather Forecast App** (React & Weather APIs)
-  - Interactive "Architecture Deep Dive" modal for every project.
 - **Academic Milestones & Certifications**:
   - B.Tech in CSE at Chaitanya Bharathi Institute of Technology (JNTUA) with **8.57 CGPA**.
   - NPTEL Elite Certification in NLP (IIT Kharagpur).
@@ -35,9 +46,6 @@ A modern, high-performance portfolio website built for **Ganeshwari Yeddula** (*
   - Mobile: `9398966108` (+91 9398966108)
   - GitHub: [https://github.com/GnaneshwariYeddula](https://github.com/GnaneshwariYeddula)
   - LinkedIn: [https://www.linkedin.com/in/gnaneshwariyeddula/](https://www.linkedin.com/in/gnaneshwariyeddula/)
-  - One-click instant copy with celebratory confetti feedback.
-  - Interactive contact inquiry form triggering pre-filled mail drafting.
-  - Built-in verified digital Resume Viewer with print/PDF export.
 
 ---
 
@@ -73,21 +81,9 @@ A modern, high-performance portfolio website built for **Ganeshwari Yeddula** (*
 
 ---
 
-## 🖼️ Profile Photo Customization
-
-The portfolio hero section automatically loads `public/profile.jpeg`.
-- To update or replace the image with any high-resolution photo from LinkedIn, simply replace the file at:
-  ```
-  public/profile.jpeg
-  ```
-- The design includes automatic graceful fallbacks, glowing cyber-brackets, rotating aura rings, and floating achievement badges.
-
----
-
 ## 📦 Tech Stack
 
 - **Frontend**: React 18, Vite 6, Tailwind CSS
 - **Icons & Effects**: Lucide Icons, Canvas Confetti
 - **Styling**: Tailwind CSS with custom glassmorphism, glowing keyframes, and custom fonts (*Plus Jakarta Sans*, *Outfit*, and *JetBrains Mono*)
 - **Deployment**: Ready for Vercel, Netlify, GitHub Pages, or Render.
-
